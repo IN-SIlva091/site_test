@@ -46,7 +46,36 @@ header nav ul li::after{
     width: 0;
     height: 2px;
     background-color: rgb(58, 87.5, 35.6);
+    transition: width 0.3s ease ;
 }
 header nav ul li:hover::after{
-    
+    width: 100%;
+}
+.corpo{
+    height: 100vh;
+    position: relative;
+    background: linear-gradient();
+    overflow: hidden;
+}
+.lista{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /* top: 20%; */
+}
+.apresntacao{
+    position: absolute;
+    inset: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.ativo{
+    opacity: 1;
+}
+.componente{
+    width: 0;
+
 }
